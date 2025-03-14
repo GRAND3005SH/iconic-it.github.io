@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Welcome to Our IT Club!</h1>
-    <p>Website is live! 🎉</p>
+    <p>Website is now live! 🎉</p>
 </body>
 </html>
