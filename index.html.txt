@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head>
+</html>
+</head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT Club</title>
 </head>
-<body>
+</body>
     <h1>Welcome to Our IT Club!</h1>
     <p>Website is now live! 🎉</p>
 </body>
