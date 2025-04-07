@@ -1,3 +1,4 @@
+
 const slides = document.querySelectorAll(".slide");
 const prev = document.querySelector(".nav.left");
 const next = document.querySelector(".nav.right");
