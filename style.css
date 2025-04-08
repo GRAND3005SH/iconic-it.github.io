@@ -1,6 +1,6 @@
 
 body {
-  padding-top: 90px;
+  padding-top: 15vh;
   margin: 0;
   font-family: 'Orbitron', sans-serif;
   background-image: url('https://images.unsplash.com/photo-1665652475985-37e285aeff53?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
@@ -23,23 +23,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 10px 38px;
   background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
   backdrop-filter: blur(6px);
 }
 
 .logo-container {
-  display: flex;
-  align-items: center;
+  display: inline-flex;
+  align-items: left;
+  
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
+  width: clamp(5px, 12vw, 70px);
+  height: clamp(5px, 12vw, 70px);
   border-radius: 50%;
-  margin-left: -20px;
-  margin-right: 10px;
-  margin-top: -3px;
+  margin-left: clamp(-50px, -2vw, -33px);
+  margin-right: 1vw;
+  margin-top: 0vw;
 }
 
 .text-group {
@@ -48,14 +49,14 @@ body {
 }
 
 .main-title {
-  font-size: 18px;
+  font-size: clamp(14px, 5vw, 30px);
   text-decoration: underline;
   color: white;
   margin-top: -7px;
 }
 
 .subtitle {
-  font-size: 10px;
+  font-size: clamp(8px, 3vw, 20px);
   align-self: flex-front;
   margin-top: 4px;
   color: white;
@@ -63,7 +64,7 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 9px;
+  gap: 1vw;
   margin-right: -27px;
   
 }
@@ -71,7 +72,7 @@ body {
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 12px;
+  font-size: clamp(7px, 3vw, 20px);
   position: relative;
   transition: color 0.3s ease;
   
@@ -91,34 +92,41 @@ body {
 .nav-links a:hover::after {
   width: 100%;
 }
+
 .glass-panel {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 16px;
-  padding: 30px 40px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
-  max-width: 415px;
-  text-align: center; 
-  margin-left: 35px;
-  margin-top: 20px;
-  margin-bottom: 20px; 
-}  
+  text-align: center;
+  margin: 20px auto;
+  width: 90vw;
+  max-width: 495px;
+  box-sizing: border-box; 
+  font-size: clamp(9px, 4vw, 24px);
+  
+}
 
 .slider-container {
   display: flex;
-  justify-content: left-side;
-  margin-top: 15px;
-  margin-bottom: 30px;
-  margin-left: 30px;
+  justify-content: center;
+  margin: 15px auto;
+  width: 90vw;
+  max-width: 500px;
+  height: auto;
+  aspect-ratio: 5 / 7;
+  
 }
 
 .slider {
   position: relative;
-  width: 500px;
-  height: 700px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  aspect-ratio: 5 / 7;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 8px 30px rgba(0,0,0,0.5);
