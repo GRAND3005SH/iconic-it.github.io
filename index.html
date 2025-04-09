@@ -17,11 +17,37 @@
                     <div class="subtitle">Be An Icon</div>
                 </div>
             </div>
-            <nav class="nav-links">
+            <nav class="navlinks-sidebar">
+                <div>
+                    <a onclick=hideSidebar()>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </a>
+                </div>
                 <a href="#">Home</a>
                 <a href="#">Events</a>
                 <a href="#">Gallery</a>
                 <a href="#">Contact</a>
+            </nav>
+            <nav class="nav-links">
+                <div class="hideOnMobile">
+                    <a href="#">Home</a>
+                </div>
+                <div class="hideOnMobile">
+                    <a href="#">Events</a>
+                </div>
+                <div class="hideOnMobile">
+                    <a href="#">Gallery</a>
+                </div>
+                <div class="hideOnMobile">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="menuButton">
+                    <a class="menuButton" onclick=showSidebar()>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/</svg>></a>
+                </div>
             </nav>
         </header>
         <div class="glass-panel">

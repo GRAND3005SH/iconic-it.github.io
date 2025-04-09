@@ -1,4 +1,3 @@
-
 const slides = document.querySelectorAll(".slide");
 const prev = document.querySelector(".nav.left");
 const next = document.querySelector(".nav.right");
@@ -39,3 +38,13 @@ prev.addEventListener("click", () => {
 });
 
 timer = setInterval(nextSlide, 4000);
+
+function showSidebar() {
+	const sidebar = document.querySelector('.navlinks-sidebar')
+	sidebar.style.display = 'flex'	
+}
+
+function hideSidebar() {
+	const sidebar = document.querySelector('.navlinks-sidebar')
+	sidebar.style.display = 'none'	
+}
