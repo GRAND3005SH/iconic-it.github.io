@@ -1,0 +1,62 @@
+/* Apply a customizable background to the whole page */
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+ 
+     /* Change the background here */
+     background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient background */
+     /* background-color: #f4f4f4; */ /* Solid color background */
+     /* background-image: url('background.jpg'); */ /* Image background */
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ 
+     color: #333;
+     transition: background-color 0.5s ease, background-image 0.5s ease;
+ }
+ 
+ /* Center the form container */
+ .container {
+     margin: 50px auto;
+     width: 90%;
+     max-width: 600px;
+     background: rgba(255, 255, 255, 0.9); /* Transparent white background for form */
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
+ 
+ h1 {
+     color: #333;
+ }
+ 
+ label {
+     font-weight: bold;
+     display: block;
+     margin: 10px 0 5px;
+ }
+ 
+ input, textarea {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+ }
+ 
+ .button {
+     display: inline-block;
+     background: #007BFF;
+     color: #fff;
+     padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 5px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+ 
+ .button:hover {
+     background: #0056b3;
+ }
